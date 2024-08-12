@@ -1,2 +1,1 @@
-sample text file 
-this is for different branch
+sample 
