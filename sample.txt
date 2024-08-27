@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 sample text file 
 this is for different branch
+=======
+sample 
+1223
+
+janfan
+>>>>>>> refs/remotes/origin/main

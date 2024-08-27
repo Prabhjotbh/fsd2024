@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -171,3 +172,197 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2 FSD</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        h1 {
+            background-color: #6c757d;
+            color: #f8f9fa;
+            text-align: center;
+            font-size: 3rem;
+            padding: 20px;
+            border: 0.2cm solid #343a40;
+            margin: 0;
+            border-radius: 0.5rem;
+        }
+
+        hr {
+            border: 1px solid #343a40;
+            margin: 20px 0;
+        }
+
+        .dog-section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .dog-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .dog-title {
+            color: #343a40;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .dog-details {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .dog-description {
+            flex: 1;
+            background-color: #e9ecef;
+            color: #343a40;
+            text-align: left;
+            font-size: 1rem;
+            padding: 20px;
+            margin-right: 20px;
+            box-sizing: border-box;
+            border-radius: 0.5rem;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+
+        .dog-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .dog-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .dog-description {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .dog-details {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>TYPES OF DOGS</h1>
+        <hr>
+
+        <div class="dog-section">
+            <h2 class="dog-title">GERMAN SHEPHERD</h2>
+            <div class="dog-details">
+                <div class="dog-description">
+                    The German Shepherd, also known in Britain as an Alsatian, is a German breed of working dog of medium to large size. The breed was developed by Max von Stephanitz using various traditional German herding dogs from 1899. It was originally bred as a herding dog, for herding sheep.<br><br>
+                    <strong>Average Life Span:</strong> 9-13 years<br>
+                    <strong>Weight:</strong> 50-90 lbs (22-40 kg)<br>
+                    <strong>Temperament:</strong> Intelligent, loyal, courageous
+                </div>
+                <div class="dog-image">
+                    <img src="01-german-shepherd-coronavirus-bwtkdt_3x2.avif" alt="German Shepherd">
+                </div>
+            </div>
+        </div>
+
+        <div class="dog-section">
+            <h2 class="dog-title">LABRADOR RETRIEVER</h2>
+            <div class="dog-details">
+                <div class="dog-description">
+                    The Labrador Retriever is one of the most popular dog breeds in the United States. They are known for their friendly and outgoing personality, as well as their intelligence and trainability. Labs are often used as guide dogs and in search-and-rescue operations.<br><br>
+                    <strong>Average Life Span:</strong> 10-12 years<br>
+                    <strong>Weight:</strong> 55-80 lbs (25-36 kg)<br>
+                    <strong>Temperament:</strong> Friendly, outgoing, gentle
+                </div>
+                <div class="dog-image">
+                    <img src="Labrador.jpg" alt="Labrador Retriever">
+                </div>
+            </div>
+        </div>
+
+        <div class="dog-section">
+            <h2 class="dog-title">HUSKY</h2>
+            <div class="dog-details">
+                <div class="dog-description">
+                    Huskies are medium-sized working dogs known for their wolf-like appearance and striking blue or multicolored eyes. They are energetic and resilient, bred originally as sled dogs in cold climates. Huskies are friendly, outgoing, and good with families.<br><br>
+                    <strong>Average Life Span:</strong> 12-15 years<br>
+                    <strong>Weight:</strong> 35-60 lbs (16-27 kg)<br>
+                    <strong>Temperament:</strong> Energetic, friendly, outgoing
+                </div>
+                <div class="dog-image">
+                    <img src="Siberian-Husky-dog.webp" alt="Husky">
+                </div>
+            </div>
+        </div>
+
+        <div class="dog-section">
+            <h2 class="dog-title">GOLDEN RETRIEVER</h2>
+            <div class="dog-details">
+                <div class="dog-description">
+                    Golden Retrievers are friendly, intelligent, and devoted dogs known for their golden coat. They are one of the most popular dog breeds due to their kind temperament and ease of training. Goldens are often employed as therapy dogs and in search-and-rescue.<br><br>
+                    <strong>Average Life Span:</strong> 10-12 years<br>
+                    <strong>Weight:</strong> 55-75 lbs (25-34 kg)<br>
+                    <strong>Temperament:</strong> Friendly, intelligent, devoted
+                </div>
+                <div class="dog-image">
+                    <img src="golden-retriever_Shutterstock.jpg" alt="Golden Retriever">
+                </div>
+            </div>
+        </div>
+
+        <div class="dog-section">
+            <h2 class="dog-title">COCKER SPANIEL</h2>
+            <div class="dog-details">
+                <div class="dog-description">
+                    Cocker Spaniels are known for their long, floppy ears and gentle, affectionate nature. They are playful and reliable, making them great family pets. Originally bred as hunting dogs, they have a strong sense of smell and a love for exploring.<br><br>
+                    <strong>Average Life Span:</strong> 12-15 years<br>
+                    <strong>Weight:</strong> 20-30 lbs (9-14 kg)<br>
+                    <strong>Temperament:</strong> Gentle, affectionate, playful
+                </div>
+                <div class="dog-image">
+                    <img src="English_Cocker_Spaniel_1x1.jpg" alt="Cocker Spaniel">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+>>>>>>> refs/remotes/origin/main
